@@ -14,6 +14,7 @@ export default {
   created(){
     //veremos que tenemos aquí nuestros params:
     this.plantaName= this.$route.params.planta;
+    //Query params
     console.log(this.$route.query)
   }
 }
