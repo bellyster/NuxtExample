@@ -4,7 +4,7 @@
       <div >
         <v-list>
         <v-list-item v-for="planta in plantas" :key="planta.name"
-         :to="{path: '/planta/'+'clematis', 
+         :to="{path: '/planta/'+planta.nombre, 
                 query:{parametro1:'hola'}}"
         >
             <v-list-item-content >
